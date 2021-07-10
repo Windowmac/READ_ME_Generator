@@ -63,17 +63,17 @@ function generateMarkdown(data) {
 
   ## Table of Contents:
   ___
-  1) [Description](#Description)
-  2) [Installation](#Installation)
-  3) [Usage](Usage)
-  4) [Video](Video)
-  5) [Contributions](#Contributions)
-  6) [Tests](#Tests)
-  7) [Questions?](#Questions?)
-  8) [GitHub](#GitHub)
-  9) [License](#License)
+  1) [Description](#description)
+  2) [Installation](#installation)
+  3) [Usage](#usage)
+  4) [Video](#video)
+  5) [Contributions](#contributions)
+  6) [Tests](#tests)
+  7) [Questions?](#questions?)
+  8) [GitHub](#gitHub)
+  9) [License](#license)
 
-  ##Contributions:
+  ## Contributions:
   ___
   For now, just follow the [Contributor Covenant](https://www.contributor-covenant.org/)
 
