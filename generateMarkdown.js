@@ -67,15 +67,39 @@ function generateMarkdown(data) {
   2) [Installation](#installation)
   3) [Usage](#usage)
   4) [Video](#video)
-  5) [Contributions](#contributions)
+  5) [Collaboration](#collaboration)
   6) [Tests](#tests)
   7) [Questions?](#questions?)
   8) [GitHub](#gitHub)
-  9) [License](#license)
+  ${data.license !== 'none' ? '9) [License](#data.license)' : ''}
 
-  ## Contributions:
+  ## Usage
   ___
-  For now, just follow the [Contributor Covenant](https://www.contributor-covenant.org/)
+  ${data.usage}
+
+  ## Video
+  ___
+  <figure class="video_container">
+  <iframe src=${data.video} frameborder="0" allowfullscreen="true"> </iframe>
+  </figure>
+
+  ## Collaboration:
+  ___
+  ${data.collaboration}
+
+  ## Tests
+  ___
+  ${data.tests}
+
+  ## Questions?
+  ___
+  Please contact me at:
+  <https://github.com/${data.githubId}>
+  
+  Or Email:
+  <${data.email}>
+
+
 
   
   ${data.license !== 'none' ? renderLicenseSection(data.license) : ''}

@@ -26,7 +26,7 @@ const questions = [
   },
   {
     type: 'input',
-    name: 'usageVideo',
+    name: 'video',
     message: 'Enter the pathname for the usage video of your project',
   },
   {
@@ -49,26 +49,32 @@ const questions = [
     type: 'input',
     name: 'test',
     message: 'Enter the test methods for your project',
+    default: 'none yet'
   },
   {
     type: 'input',
-    name: 'questions',
-    message:
-      'Enter how to get in contact with you for questions about your project',
+    name: 'collaboration',
+    message: 'How should someone collaborate with the project?',
+    default: `For now, just follow the [Contributor Covenant](https://www.contributor-covenant.org/)`,
   },
   {
     type: 'input',
     name: 'githubId',
     message: 'Enter your github id: ',
   },
+  {
+    type: 'input',
+    name: 'email',
+    message: 'Enter the email address for this project: ',
+  },
 ];
 
-// TODO: Create a function to write README file
+
 function writeToFile(fileName, data) {
   fs.writeFile(fileName, generateMarkdown(data), err => console.log(err ? err : 'success!'));
 }
 
-// TODO: Create a function to initialize app
+
 function init() {
   inquirer.prompt(questions).then((answers) => {
     writeToFile('./newReadme/README.md', answers);
