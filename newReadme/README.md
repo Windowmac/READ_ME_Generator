@@ -1,9 +1,9 @@
-# testingAgain
-  [![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
+# Test Title
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   ## Description:
   ___
-  basic descriptoritis.
+  description of note
 
   ## Table of Contents:
   ___
@@ -15,16 +15,16 @@
   6) [Tests](#tests)
   7) [Questions?](#questions?)
   8) [GitHub](#gitHub)
-  9) [License](#Mozilla Public License 2.0
+  9) [License](#license)
 
   ## Usage
   ___
-  Use it and see, silly!
+  use it like this: 
 
   ## Video
   ___
   <figure class="video_container">
-  <iframe src=./blah blah frameborder="0" allowfullscreen="true"> </iframe>
+  <iframe src=./video/path/name frameborder="0" allowfullscreen="true"> </iframe>
   </figure>
 
   ## Collaboration:
@@ -41,9 +41,9 @@
   [GitHub](https://github.com/Windowmac)
   
   Or Email:
-  <unknown>
+  <test@example.com>
 
   
   ## License: 
   ___
-  Licensed under [Mozilla Public License 2.0](https://opensource.org/licenses/MPL-2.0)
+  Licensed under [MIT License](https://opensource.org/licenses/MIT)
