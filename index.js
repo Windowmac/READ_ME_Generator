@@ -27,6 +27,11 @@ const questions = [
     message: 'Enter the pathname for the usage video of your project',
   },
   {
+    type: 'input',
+    name: 'image',
+    message: 'Enter the pathname for the image of your video',
+  },
+  {
     type: 'list',
     name: 'license',
     message: 'Enter the license for your project: ',

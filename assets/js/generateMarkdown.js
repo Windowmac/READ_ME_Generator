@@ -75,9 +75,7 @@ function generateMarkdown(data) {
 
   ## Video
   ___
-  <figure class="video_container">
-  <iframe src=${data.video} frameborder="0" allowfullscreen="true"> </iframe>
-  </figure>
+  [![Demo Video](${data.image})](${data.video} "Demo Video")
 
   ## Collaboration:
   ___

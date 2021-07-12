@@ -31,10 +31,8 @@ Fill out your info, your project info, and the program fills out a README in Mar
 ## Video
 
 ---
+[![Demo Video](./assets/images/README-generator.png)](https://drive.google.com/file/d/1SnXxJnOyxVQ5W_Ib4fsoqckGbNXEkZYq/view "Demo Video")
 
-  <figure class="video_container">
-  <iframe src="https://drive.google.com/file/d/1lNHLrZVAC1zi4APS4IzyM-p5UN6NPM0U/view" frameborder="0" allowfullscreen="true"> </iframe>
-  </figure>
 
 ## Collaboration:
 

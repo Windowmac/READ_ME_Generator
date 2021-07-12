@@ -1,9 +1,9 @@
 # Test Title
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  [![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
 
   ## Description:
   ___
-  description of note
+  describing the project
 
   ## Table of Contents:
   ___
@@ -23,9 +23,7 @@
 
   ## Video
   ___
-  <figure class="video_container">
-  <iframe src=./video/path/name frameborder="0" allowfullscreen="true"> </iframe>
-  </figure>
+  [![Demo Video](./image/path/name)](https://drive.google.com/file/d/1lNHLrZVAC1zi4APS4IzyM-p5UN6NPM0U/view "Demo Video")
 
   ## Collaboration:
   ___
@@ -46,4 +44,4 @@
   
   ## License: 
   ___
-  Licensed under [MIT License](https://opensource.org/licenses/MIT)
+  Licensed under [Mozilla Public License 2.0](https://opensource.org/licenses/MPL-2.0)
