@@ -1,9 +1,9 @@
-# README-GENERATOR
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# testingAgain
+  [![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
 
   ## Description:
   ___
-  Using npm's inquirer, easily build a README for any project. It built this README!
+  basic descriptoritis.
 
   ## Table of Contents:
   ___
@@ -15,16 +15,16 @@
   6) [Tests](#tests)
   7) [Questions?](#questions?)
   8) [GitHub](#gitHub)
-  9) [License](#data.license)
+  9) [License](#Mozilla Public License 2.0
 
   ## Usage
   ___
-  Fill out your info, your project info, and the program fills out a README in Markdown and saves it locally.  It will fill in your License badge and a link to your license version will appear at the bottom of the page. 
+  Use it and see, silly!
 
   ## Video
   ___
   <figure class="video_container">
-  <iframe src=./assets/videos/demo-video frameborder="0" allowfullscreen="true"> </iframe>
+  <iframe src=./blah blah frameborder="0" allowfullscreen="true"> </iframe>
   </figure>
 
   ## Collaboration:
@@ -41,9 +41,9 @@
   [GitHub](https://github.com/Windowmac)
   
   Or Email:
-  <mckendree.strommer@gmail.com>
+  <unknown>
 
   
   ## License: 
   ___
-  Licensed under [MIT License](https://opensource.org/licenses/MIT)
+  Licensed under [Mozilla Public License 2.0](https://opensource.org/licenses/MPL-2.0)

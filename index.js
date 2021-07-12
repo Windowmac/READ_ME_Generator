@@ -1,7 +1,4 @@
-
-const inquirer = require('inquirer');
-const generateMarkdown = require('./assets/js/generateMarkdown');
-const fs = require('fs');
+const questionsFn = require('./assets/js/questionsFn');
 
 const questions = [
   {
@@ -49,7 +46,7 @@ const questions = [
     type: 'input',
     name: 'tests',
     message: 'Enter the test methods for your project',
-    default: 'none yet'
+    default: 'none yet',
   },
   {
     type: 'input',
@@ -69,16 +66,4 @@ const questions = [
   },
 ];
 
-
-function writeToFile(fileName, data) {
-  fs.writeFile(fileName, generateMarkdown(data), err => console.log(err ? err : 'success!'));
-}
-
-
-function init() {
-  inquirer.prompt(questions).then((answers) => {
-    writeToFile('./newReadme/README.md', answers);
-  });
-}
-
-init();
+questionsFn(questions);

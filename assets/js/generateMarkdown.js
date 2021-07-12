@@ -67,7 +67,7 @@ function generateMarkdown(data) {
   6) [Tests](#tests)
   7) [Questions?](#questions?)
   8) [GitHub](#gitHub)
-  ${data.license !== 'none' ? '9) [License](#data.license)' : ''}
+  ${data.license !== 'none' ? `9) [License](#${data.license}` : ''}
 
   ## Usage
   ___
