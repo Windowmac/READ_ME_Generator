@@ -3,7 +3,7 @@
 
   ## Description:
   ___
-  A program that eases the burden on the developer by dynamically generating a readme from console command inputs.
+  A program that eases the burden on the developer by dynamically generating a readme from console command inputs. It generated this README!
 
   ## Table of Contents:
   ___
