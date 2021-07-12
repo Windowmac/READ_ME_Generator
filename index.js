@@ -47,7 +47,7 @@ const questions = [
   },
   {
     type: 'input',
-    name: 'test',
+    name: 'tests',
     message: 'Enter the test methods for your project',
     default: 'none yet'
   },

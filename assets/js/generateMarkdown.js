@@ -1,5 +1,4 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
+
 function renderLicenseBadge(license) {
   const badges = {
     'GNU AGPLv3':
@@ -24,8 +23,7 @@ function renderLicenseBadge(license) {
   return badges[license];
 }
 
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
+
 function renderLicenseLink(license) {
   const licenseLinks = {
     'GNU AGPLv3': '[GNU AGPL v3](https://www.gnu.org/licenses/agpl-3.0)',
@@ -45,14 +43,12 @@ function renderLicenseLink(license) {
   return licenseLinks[license];
 }
 
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
+
 function renderLicenseSection(license) {
-  return license.length ? `Licensed under ${renderLicenseLink(license)}` : '';
+  return license !== 'none' ? `Licensed under ${renderLicenseLink(license)}` : '';
 }
 
 
-// TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
   ${data.license !== 'none' ? renderLicenseBadge(data.license) : ''}
@@ -94,16 +90,17 @@ function generateMarkdown(data) {
   ## Questions?
   ___
   Please contact me at:
-  <https://github.com/${data.githubId}>
+  [GitHub](https://github.com/${data.githubId})
   
   Or Email:
   <${data.email}>
 
-
-
   
-  ${data.license !== 'none' ? renderLicenseSection(data.license) : ''}
-`;
+  ${data.license !== 'none' 
+  ? `## License: 
+  ___
+  ${renderLicenseSection(data.license)}` 
+  : ''}`;
 }
 
 module.exports = generateMarkdown;
