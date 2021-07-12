@@ -45,7 +45,9 @@ function renderLicenseLink(license) {
 
 
 function renderLicenseSection(license) {
-  return license !== 'none' ? `Licensed under ${renderLicenseLink(license)}` : '';
+  return `## License: 
+  ___
+  Licensed under ${renderLicenseLink(license)}`;
 }
 
 
@@ -69,6 +71,10 @@ function generateMarkdown(data) {
   8) [GitHub](#gitHub)
   ${data.license !== 'none' ? `9) [License](#license)` : ''}
 
+  ## Installation
+  ___
+  ${data.installation}
+
   ## Usage
   ___
   ${data.usage}
@@ -88,17 +94,15 @@ function generateMarkdown(data) {
   ## Questions?
   ___
   Please contact me at:
-  [GitHub](https://github.com/${data.githubId})
+  My [GitHub](https://github.com/${data.githubId})
   
   Or Email:
   <${data.email}>
 
   
   ${data.license !== 'none' 
-  ? `## License: 
-  ___
-  ${renderLicenseSection(data.license)}` 
-  : ''}`;
+  ? renderLicenseSection(data.license) 
+  : ''}`
 }
 
 module.exports = generateMarkdown;
